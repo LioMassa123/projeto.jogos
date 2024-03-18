@@ -33,7 +33,7 @@ def jogar():
         palavra: "ar"  
 
     elif(palavraN == 10):
-        palavra: "estintor"         
+        palavra: "extintor"         
 
     acertou= False
     inforcou= False
