@@ -3,7 +3,7 @@ import random
 def jogar():
     print("#### Bem Vindo ao jogo de Forca!!!!!")
 
-    palavraN = random.randint(1,6)
+    palavraN = random.randint(1,10)
 
     if(palavraN == 1):
         palavra: "estrela"
@@ -22,6 +22,18 @@ def jogar():
 
     elif(palavraN == 6):
         palavra: "fogo"
+
+    elif(palavraN == 7):
+        palavra: "agua" 
+
+    elif(palavraN == 8):
+        palavra: "terra"
+
+    elif(palavraN == 9):
+        palavra: "ar"  
+
+    elif(palavraN == 10):
+        palavra: "estintor"         
 
     acertou= False
     inforcou= False
